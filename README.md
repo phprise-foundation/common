@@ -184,37 +184,36 @@ Available Request classes:
 
 ---
 
-# Otaku - The Manifesto of Fluid Structure
+## Philosophy
 
-## Synthesis of the Philosophy
-1. Write programs that communicate via clear contracts.
-2. Compose them like Unix tools.
-3. Be strict with yourself. Restrict your structure to guarantee readability.
-4. Protect the heart of the business.
-5. Speak the user's language.
-6. Let infrastructure be just a silent detail.
+Please read [PHILOSOPHY.md](PHILOSOPHY.md) to learn more about our philosophy.
 
-## The Principle of Modularity (Unix & Clean Architecture)
-**The Rule of Composition**: Just like in Unix, each component should do one thing and do it well. In software design, this translates to concentric layers where dependencies point only inwards.
+---
 
-**Data Pipes**: Treat the application flow as a pipeline. Input enters through an adapter (Controller), traverses the Use Case (Core), and is persisted or transformed, keeping business logic isolated from external side effects.
+## License
 
-## The Purity of Form (Object Calisthenics)
-**Restriction as Liberation**: Use Object Calisthenics rules (like only one level of indentation and small classes) to force domain decomposition.
+MIT License
 
-**Total Encapsulation**: If an object needs a behavior, it must own it. Do not expose internal state; ask the object to perform the action.
+---
 
-## The Language as Foundation (DDD)
-**Code is the Map**: The design must reflect the domain, not the database. Use Ubiquitous Language so that code is readable by both developers and business experts.
+## Contributing
 
-**Bounded Frontiers**: Define your Bounded Contexts clearly. What is a "User" in the Authentication context is not the same "User" in the Billing context.
+Check [CONTRIBUTING.md](CONTRIBUTING.md) to learn more about our contributing guidelines.
 
-## The Single Truth of the Contract (OpenAPI)
-**Design-First**: The contract (OpenAPI) is the specification of truth. Before coding, define the interface. This allows frontend and backend development to happen in parallel, guided by an immutable technical promise.
+---
 
-**Living Documentation**: The specification is not a static document, but the functional skeleton of communication between systems.
+## Code of Conduct
 
-## Invisible Persistence (Doctrine)
-**Entities, not Tables**: Use Doctrine (or Data Mapper patterns) to treat persistence as an infrastructure detail. Your domain entities should be Plain Old PHP Objects (POPOs), ignorant of how they are saved.
+Check [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) to learn more about our code of conduct.
 
-**The Repository as a Collection**: Treat data access as an in-memory collection, abstracting SQL complexity to keep focus on domain logic.
+---
+
+## Security
+
+Check [SECURITY.md](SECURITY.md) to learn more about our security policy.
+
+---
+
+## Changelog
+
+Check [CHANGELOG.md](CHANGELOG.md) for more information.

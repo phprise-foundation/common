@@ -4,7 +4,9 @@ declare(strict_types=1);
 
 namespace Phprise\Common\ValueObject;
 
-class ArrayObject extends \ArrayObject
+use Phprise\Common\Contract\Arrayable;
+
+class ArrayObject extends \ArrayObject implements Arrayable, \Stringable
 {
     public function __construct(array $array = [])
     {

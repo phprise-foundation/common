@@ -20,11 +20,10 @@ This project and everyone participating in it is governed by the [Code of Conduc
 
 ### Pull Requests
 
-1. Fork the repo and create your branch from `master`.
-2. If you've added code that should be tested, add tests.
-3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
-5. Make sure your code follows the strict style guide below.
+1. Fork the repo and create your branch from `1.x`.
+2. As this is an **Assembly Repository**, changes should primarily be to `composer.json` (adding/updating Atoms) or meta-documentation.
+3. If proposing a new Atom, ensure it follows the strict style guide below.
+4. Make sure your contributions align with the OTAKU Manifesto.
 
 ## Style Guide & Architecture
 

@@ -1,7 +1,7 @@
 {
     "name": "phprise/common",
     "description": "Common objects for general usage in PHP projects, including Contracts and Value Objects based on the OTAKU Manifesto.",
-    "type": "library",
+    "type": "metapackage",
     "require": {
         "php": "^8.4",
         "phprise/common-contract": "^1.0",
